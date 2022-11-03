@@ -12,8 +12,8 @@
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
     "he": "^1.2.0",
-    "jsdom": "^15.2.1",
-    "tap": "^13.0.0"
+    "jsdom": "^20.0.2",
+    "tap": "^16.3.0"
   },
   "scripts": {
     "test": "tap test/unittests.js test/asciimathfilter.test.js"
