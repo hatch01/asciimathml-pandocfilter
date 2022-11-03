@@ -7,12 +7,6 @@ var asciimath = require('./asciimath-based/ASCIIMathTeXImg.js');
 var Formula = pandoc.Formula; // for Math
 
 function action({ t: type, c: value }, format, meta) {
-    console.log(type);
-    console.log(value);
-    // console.log(type);
-    // if (type === 'Math') {
-    //     console.log(!(value.length == 2 && value[1].length >= 2 && value[1].slice(0, 2) === ':l'));
-    // }
     if (type === 'Math') {
         console.log("math");
         if ((value.length == 2 && value[1].length >= 2 && value[1].slice(0, 2) === ':l')) {
