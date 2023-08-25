@@ -6,7 +6,7 @@ var pandoc = require('pandoc-filter');
 var asciimath = require('./asciimath-based/ASCIIMathTeXImg.js');
 var Formula = pandoc.Formula; // for Math
 
-function action({ t: type, c: value }, format, meta) {
+function action(type, value , format, meta) {
     if (type === 'Math') {
         if ((value.length == 2 && value[1].length >= 2 && value[1].slice(0, 2) === ':l')) {
             return Formula(value[0], value[1].slice(2));
