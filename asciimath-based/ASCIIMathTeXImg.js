@@ -219,7 +219,7 @@ var AMsymbols = [
 {input:"vdots", tag:"mo", output:"\u22EE", tex:null, ttype:CONST},
 {input:"ddots", tag:"mo", output:"\u22F1", tex:null, ttype:CONST},
 {input:"diamond", tag:"mo", output:"\u22C4", tex:null, ttype:CONST},
-{input:"square", tag:"mo", output:"\u25A1", tex:"boxempty", ttype:CONST},
+{input:"square", tag:"mo", output:"\u25A1", tex:"square", ttype:CONST},
 {input:"|__", tag:"mo", output:"\u230A",  tex:"lfloor", ttype:CONST},
 {input:"__|", tag:"mo", output:"\u230B",  tex:"rfloor", ttype:CONST},
 {input:"|~", tag:"mo", output:"\u2308",  tex:"lceil", ttype:CONST},
