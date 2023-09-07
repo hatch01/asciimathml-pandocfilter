@@ -3,7 +3,7 @@
 // Pandoc filter to convert expressions in AsciiMath notation into LaTeX expressions
 
 var pandoc = require('pandoc-filter');
-var asciimath = require('./asciimath-based/ASCIIMathTeXImg.js');
+var asciimath = require('./ASCIIMathToTeX.js');
 var Formula = pandoc.Formula; // for Math
 
 function action(type, value , format, meta) {
